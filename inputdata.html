@@ -504,7 +504,7 @@
                 showNotification(isEditMode ? 'Data berhasil diperbarui!' : 'Data berhasil disimpan!', 'success');
 
                 if (confirm(`Apakah Anda ingin melihat data yang baru saja ${isEditMode ? 'diperbarui' : 'disimpan'} di halaman Pantau?`)) {
-                    window.open(`pantau.html?kode=${kodeRegistrasi}`, '_blank');
+                    window.open(`index.html?kode=${kodeRegistrasi}`, '_blank');
                 }
 
                 // Reset form ke mode tambah data
@@ -630,4 +630,5 @@
         });
     </script>
 </body>
+
 </html>
